@@ -1,0 +1,225 @@
+.clock-image{
+    width: 210px;
+    height: 90px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+#clock-timing{
+    width: 500px;
+    height: 300px;
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.wake-up-time{
+    width: 500px;
+    height: 100px;
+    /* border: 2px solid black; */
+    background-color: white;
+    position: relative;    
+}
+.img1{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.w{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    color: #3D087B;
+}
+#wake{
+   margin-left: 280px;
+   margin-top: 50px;
+}
+.lunch-time{
+    width: 500px;
+    height: 100px;
+    /* border: 2px solid green; */
+    background-color: white;
+    position: relative;
+}
+.img2{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.L{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    color: #3D087B;
+}
+#lunch{
+    margin-left: 280px;
+    margin-top: 50px;
+}
+.nap-time{
+    width: 500px;
+    height: 90px;
+    /* border: 2px solid blue; */
+    background-color: white;
+    position: relative;
+}
+.img3{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.N{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    color: #3D087B;
+}
+#nap{
+    margin-left: 280px;
+    margin-top: 50px;
+}
+.button{
+    width: 320px;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: 250px;
+    letter-spacing: 1px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    border: 2px solid pink;
+    background-image: linear-gradient(to right, #9145B6 , pink);
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #F7F7F7;
+   }
+.first-conatiner{
+    /* display: inline-block;   */
+    position: relative;
+    height: 100%;
+}
+.second-container{
+    /* display: inline-block; */
+    position: absolute;
+    /* border: 2px solid red;  */
+    width: 500px;
+    height: 630px;
+    right: 50px;
+    top: -20px;
+  }
+#time-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: purple;
+   
+  }
+#hrs{
+    text-align: center;
+    font-size: 25px;
+    background-color: lightpink;
+    margin-top: 30px;
+}
+#min{
+    text-align: center;
+    font-size: 25px;
+    background-color: lightpink;
+    margin-top: 30px;
+}
+#sec{
+    text-align: center;
+    font-size: 25px;
+    background-color: lightpink;
+    margin-top: 30px;
+}
+#AM-PM{
+    background-color: lightpink;
+    width: 60px;
+    height: 60px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+#show-clock{
+    width: 500px;
+    height: 150px;
+    position: relative;
+    /* border: 2px solid green; */
+   }
+.img-content{
+    width: 500px;
+    height: 440px;
+    /* border: 2px solid black; */
+    margin-top: 40px;
+}
+.ballon{
+    width: 500px;
+    height: 350px;
+}
+#show-text{
+    width: 500px;
+    height: 80px;
+    /* border: 3px solid yellow; */
+    background-color: white;
+    font-size: 25px;
+    color: purple;
+}
+#show-clock{
+    background-color: white;
+    
+}
+.t{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.lb1{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    border-radius: 20px;
+    background-color: white;
+    opacity: 0.70;
+    z-index: -1;
+}
+.lb2{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    top: 25px;
+    left: 65px;
+    border-radius: 30px;
+    background-color: #FFC4E1;
+    opacity: 0.65;
+    z-index: -1;
+}
+#image{
+    width: 500px;
+    height: 350px;
+    background-color: seashell;
+    background-position: center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+  
+}
+h2{
+    text-align: center;
+}
+#dynamic-block{
+    background-color: violet;
+    width: 500px;
+    height: 50px;
+    border: 2px solid violet;
+    border-radius: 20px;
+    margin-left: 250px;
+    margin-top: 30px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
